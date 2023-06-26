@@ -86,7 +86,7 @@
              
                  $query_mysqli = mysqli_query($koneksi, "SELECT*FROM produk");
                  while ($data = mysqli_fetch_array($query_mysqli)) {
-                    if($data['kategori']== 'raket'){
+                    if($data['kategori'] == 'raket'){
 
                 ?>
                 

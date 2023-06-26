@@ -35,11 +35,6 @@ if (isset($_POST['btn'])) {
     }else{
         echo 'EKSTENSI FILE YANG DI UPLOAD TIDAK DI PERBOLEHKAN';
     }
-
-		// $sql = $koneksi->query("INSERT INTO produk (nama, merk, harga, deskripsi, gambar, kategori) VALUES('$nama', '$merkproduk', '$harga', '$deskripsi', '$gambar', '$kategori')");
-		// if (isset($sql)) {
-		// 	header('location:pagecustomor.php');
-		// }
 	}
 ?>
 

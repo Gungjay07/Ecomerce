@@ -124,9 +124,8 @@
                  $query_mysqli = mysqli_query($koneksi, "SELECT*FROM produk");
                  while ($data = mysqli_fetch_array($query_mysqli)) {
                     if($data['kategori']== 'shoes'){
-
-                ?>
-                
+                        
+                ?>                
                 <div class="col-4">
                     <img src="images/<?=$data['gambar']?>">
                     <h4><?=$data['nama']?></h4>
